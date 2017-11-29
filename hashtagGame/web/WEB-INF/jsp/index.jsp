@@ -3,17 +3,46 @@
     "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welcome to Spring Web MVC project</title>
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+   <link href="css/style.css" rel="stylesheet" type="text/css"/>
+   <script src="js/jquery-2.1.4.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/actions.js"></script>
+    <title>Gato BB</title>
+  </head>
+  <body>
 
-    <body>
-        <p>Hello! This is the default welcome page for a Spring Web MVC project.</p>
-        <p><i>To display a different welcome page for this project, modify</i>
-            <tt>index.jsp</tt> <i>, or create your own welcome page then change
-                the redirection in</i> <tt>redirect.jsp</tt> <i>to point to the new
-                welcome page and also update the welcome-file setting in</i>
-            <tt>web.xml</tt>.</p>
-    </body>
+     <audio autoplay loop>
+      <source src="music/holi.mp3" type="audio/mpeg">
+    </audio>
+  
+
+    <div class="container" style="margin-top: 10%">
+      <p> Eeeel Gato <p>
+        <br>
+      <div class="row">
+        <div class="col-md-12">
+            <button autofocus onclick="user(this)"class="btn" type="button" name="a1" id="a1" value=""> </button>
+            <button autofocus onclick="user(this)" class="btn"type="button" name="a1" id="a2" value=""> </button>
+            <button autofocus onclick="user(this)" class="btn" type="button" name="a1" id="a3" value=""> </button>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+            <button autofocus onclick="user(this)" class="btn" type="button" name="a1" id="b1" value=""> </button>
+            <button autofocus onclick="user(this)" class="btn" type="button" name="a1" id="b2" value=""> </button>
+            <button autofocus onclick="user(this)" class="btn" type="button" name="a1" id="b3" value=""> </button>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+            <button autofocus onclick="user(this)" class="btn" type="button" name="a1" id="c1" value=""> </button>
+            <button autofocus onclick="user(this)" class="btn" type="button" name="a1" id="c2" value=""> </button>
+            <button autofocus onclick="user(this)" class="btn" type="button" name="a1" id="c3" value=""> </button>
+          </div>
+      </div>
+      </div>
+  </body>
 </html>
